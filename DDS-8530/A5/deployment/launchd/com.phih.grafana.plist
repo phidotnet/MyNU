@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.phih.grafana</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/opt/grafana/bin/grafana</string>
+    <string>server</string>
+    <string>--config</string>
+    <string>/Users/phih/working/Ph/DDS-8530/A5/config/grafana/grafana.ini</string>
+    <string>--homepath</string>
+    <string>/opt/homebrew/opt/grafana/share/grafana</string>
+    <string>--packaging=brew</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/phih/working/Ph/DDS-8530/A5/runtime/grafana-data</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/phih/working/Ph/DDS-8530/A5/runtime/logs/grafana.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/phih/working/Ph/DDS-8530/A5/runtime/logs/grafana-error.log</string>
+</dict>
+</plist>

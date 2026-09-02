@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Phis-MacBook-Pro",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus22.actions.githubusercontent.com/BkdcMx7UKaNmGHndEIlptAvbAJm0BIy2eNNDhM0zaeMUi8tn4U/",
+  "gitHubUrl": "https://github.com/phidotnet/PhD",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

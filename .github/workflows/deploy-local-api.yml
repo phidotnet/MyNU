@@ -1,0 +1,42 @@
+name: Deploy Local Model API
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - "DDS-8530/A5/model_api_server.py"
+      - "DDS-8530/A5/ml_train_models.py"
+      - "DDS-8530/A5/requirements.txt"
+
+concurrency:
+  group: local-model-api
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, macOS]
+
+    steps:
+      - name: Update local application source
+        run: |
+          cd /Users/phih/working/Ph/DDS-8530/A5
+          git fetch origin master
+          git checkout master
+          git pull --ff-only origin master
+
+      - name: Install dependencies and restart API
+        run: |
+          cd /Users/phih/working/Ph/DDS-8530/A5
+            domain="gui/$(id -u)"
+            service="$domain/com.phih.model-api"
+            plist="$PWD/com.phih.model-api.plist"
+            if launchctl print "$service" >/dev/null 2>&1; then
+              launchctl kickstart -k "$service"
+            else
+              launchctl bootstrap "$domain" "$plist"
+            fi
+
+      - name: Verify deployed API
+        run: |
+          curl --fail --retry 5 --retry-connrefused http://127.0.0.1:8000/health

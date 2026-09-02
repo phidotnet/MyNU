@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.phih.model-api</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/phih/working/Ph/.venv/bin/uvicorn</string>
+    <string>src.model_api_server:app</string>
+    <string>--host</string>
+    <string>127.0.0.1</string>
+    <string>--port</string>
+    <string>8000</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/phih/working/Ph/DDS-8530/A5</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/phih/working/Ph/DDS-8530/A5/runtime/logs/uvicorn.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/phih/working/Ph/DDS-8530/A5/runtime/logs/uvicorn-error.log</string>
+</dict>
+</plist>
