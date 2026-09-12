@@ -1,0 +1,53 @@
+{
+  "input_records": 13583,
+  "output_records": 13583,
+  "partitions": 5,
+  "missing_values_before": {
+    "_id": 0,
+    "description": 0,
+    "brand": 714,
+    "model": 741,
+    "mp": 0,
+    "optical_zoom": 6569,
+    "digital_zoom": 12779,
+    "screen_size": 4967,
+    "price": 12573,
+    "type": 3118
+  },
+  "missing_values_after": {
+    "_id": 0,
+    "description": 0,
+    "brand": 714,
+    "model": 741,
+    "mp": 0,
+    "optical_zoom": 6569,
+    "digital_zoom": 12779,
+    "screen_size": 4967,
+    "price": 12573,
+    "type": 3118
+  },
+  "missing_percent_before": {
+    "_id": 0.0,
+    "description": 0.0,
+    "brand": 5.26,
+    "model": 5.46,
+    "mp": 0.0,
+    "optical_zoom": 48.36,
+    "digital_zoom": 94.08,
+    "screen_size": 36.57,
+    "price": 92.56,
+    "type": 22.96
+  },
+  "missing_percent_after": {
+    "_id": 0.0,
+    "description": 0.0,
+    "brand": 5.26,
+    "model": 5.46,
+    "mp": 0.0,
+    "optical_zoom": 48.36,
+    "digital_zoom": 94.08,
+    "screen_size": 36.57,
+    "price": 92.56,
+    "type": 22.96
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "records": 13583,
+  "dataframe_seconds": 5.1463,
+  "rdd_seconds": 3.8892,
+  "columns": {
+    "description": {
+      "type": "token_counts",
+      "top_tokens": [
+        {
+          "token": "camera",
+          "count": 17423
+        },
+        {
+          "token": "digital",
+          "count": 11347
+        },
+        {
+          "token": "ebay",
+          "count": 9780
+        },
+        {
+          "token": "mp",
+          "count": 8478
+        },
+        {
+          "token": "1",
+          "count": 4261
+        },
+        {
+          "token": "black",
+          "count": 4145
+        },
+        {
+          "token": "ip",
+          "count": 3139
+        },
+        {
+          "token": "0",
+          "count": 2940
+        },
+        {
+          "token": "canon",
+          "count": 2891
+        },
+        {
+          "token": "slr",
+          "count": 2703
+        },
+        {
+          "token": "2",
+          "count": 2649
+        },
+        {
+          "token": "nikon",
+          "count": 2645
+        },
+        {
+          "token": "hikvision",
+          "count": 2633
+        },
+        {
+          "token": "on",
+          "count": 2510
+        },
+        {
+          "token": "3",
+          "count": 2329
+        },
+        {
+          "token": "buy",
+          "count": 2245
+        },
+        {
+          "token": "com",
+          "count": 2181
+        },
+        {
+          "token": "16",
+          "count": 2009
+        },
+        {
+          "token": "12",
+          "count": 1845
+        },
+        {
+          "token": "alibaba",
+          "count": 1841
+        },
+        {
+          "token": "product",
+          "count": 1838
+        },
+        {
+          "token": "sony",
+          "count": 1649
+        },
+        {
+          "token": "18",
+          "count": 1619
+        },
+        {
+          "token": "w",
+          "count": 1599
+        },
+        {
+          "token": "with",
+          "count": 1567
+        }
+      ]
+    },
+    "brand": {
+      "type": "categorical",
+      "count": 12881,
+      "distinct": 94,
+      "top_values": [
+        {
+          "brand": "canon",
+          "count": 2840
+        },
+        {
+          "brand": "nikon",
+          "count": 2593
+        },
+        {
+          "brand": "sony",
+          "count": 1622
+        },
+        {
+          "brand": "hikvision",
+          "count": 961
+        },
+        {
+          "brand": "fujifilm",
+          "count": 772
+        },
+        {
+          "brand": "olympus",
+          "count": 714
+        },
+        {
+          "brand": "panasonic",
+          "count": 610
+        },
+        {
+          "brand": "kodak",
+          "count": 535
+        },
+        {
+          "brand": "samsung",
+          "count": 525
+        },
+        {
+          "brand": "dahua",
+          "count": 385
+        }
+      ]
+    },
+    "model": {
+      "type": "categorical",
+      "count": 12854,
+      "distinct": 2759,
+      "top_values": [
+        {
+          "model": "ds-2cd2632f-is",
+          "count": 156
+        },
+        {
+          "model": "t3i",
+          "count": 128
+        },
+        {
+          "model": "7d",
+          "count": 110
+        },
+        {
+          "model": "t3",
+          "count": 102
+        },
+        {
+          "model": "d3100",
+          "count": 94
+        },
+        {
+          "model": "d3200",
+          "count": 84
+        },
+        {
+          "model": "d5100",
+          "count": 82
+        },
+        {
+          "model": "60d",
+          "count": 77
+        },
+        {
+          "model": "ds-2cd2012-i",
+          "count": 74
+        },
+        {
+          "model": "d7000",
+          "count": 70
+        }
+      ]
+    },
+    "mp": {
+      "type": "categorical",
+      "count": 13569,
+      "distinct": 168,
+      "top_values": [
+        {
+          "mp": "16.0",
+          "count": 1119
+        },
+        {
+          "mp": "12.1",
+          "count": 841
+        },
+        {
+          "mp": "3.0",
+          "count": 724
+        },
+        {
+          "mp": "18.0",
+          "count": 583
+        },
+        {
+          "mp": "1.3",
+          "count": 562
+        },
+        {
+          "mp": "16.1",
+          "count": 556
+        },
+        {
+          "mp": "10.1",
+          "count": 502
+        },
+        {
+          "mp": "10.0",
+          "count": 497
+        },
+        {
+          "mp": "14.0",
+          "count": 471
+        },
+        {
+          "mp": "5.0",
+          "count": 445
+        }
+      ]
+    },
+    "optical_zoom": {
+      "type": "categorical",
+      "count": 7040,
+      "distinct": 108,
+      "top_values": [
+        {
+          "optical_zoom": "3.0",
+          "count": 2119
+        },
+        {
+          "optical_zoom": "5.0",
+          "count": 1089
+        },
+        {
+          "optical_zoom": "4.0",
+          "count": 716
+        },
+        {
+          "optical_zoom": "10.0",
+          "count": 381
+        },
+        {
+          "optical_zoom": "12.0",
+          "count": 274
+        },
+        {
+          "optical_zoom": "8.0",
+          "count": 209
+        },
+        {
+          "optical_zoom": "30.0",
+          "count": 197
+        },
+        {
+          "optical_zoom": "18.0",
+          "count": 135
+        },
+        {
+          "optical_zoom": "15.0",
+          "count": 132
+        },
+        {
+          "optical_zoom": "3.6",
+          "count": 130
+        }
+      ]
+    },
+    "digital_zoom": {
+      "type": "categorical",
+      "count": 834,
+      "distinct": 57,
+      "top_values": [
+        {
+          "digital_zoom": "4.0",
+          "count": 378
+        },
+        {
+          "digital_zoom": "16.0",
+          "count": 100
+        },
+        {
+          "digital_zoom": "2.0",
+          "count": 77
+        },
+        {
+          "digital_zoom": "5.0",
+          "count": 63
+        },
+        {
+          "digital_zoom": "8.0",
+          "count": 26
+        },
+        {
+          "digital_zoom": "6.0",
+          "count": 21
+        },
+        {
+          "digital_zoom": "3.6",
+          "count": 20
+        },
+        {
+          "digital_zoom": "7.2",
+          "count": 15
+        },
+        {
+          "digital_zoom": "12.0",
+          "count": 12
+        },
+        {
+          "digital_zoom": "5.7",
+          "count": 12
+        }
+      ]
+    },
+    "screen_size": {
+      "type": "categorical",
+      "count": 8653,
+      "distinct": 37,
+      "top_values": [
+        {
+          "screen_size": "3.0",
+          "count": 4078
+        },
+        {
+          "screen_size": "2.7",
+          "count": 1339
+        },
+        {
+          "screen_size": "2.5",
+          "count": 1244
+        },
+        {
+          "screen_size": "1.8",
+          "count": 498
+        },
+        {
+          "screen_size": "1.5",
+          "count": 348
+        },
+        {
+          "screen_size": "2.0",
+          "count": 289
+        },
+        {
+          "screen_size": "3.2",
+          "count": 243
+        },
+        {
+          "screen_size": "2.4",
+          "count": 179
+        },
+        {
+          "screen_size": "2.8",
+          "count": 143
+        },
+        {
+          "screen_size": "3.5",
+          "count": 63
+        }
+      ]
+    },
+    "price": {
+      "type": "numeric",
+      "count": 1012,
+      "missing": 12571,
+      "distinct": 354,
+      "min": 1.0,
+      "max": 31046.55,
+      "mean": 408.5862549407084,
+      "median": 233.21
+    },
+    "type": {
+      "type": "categorical",
+      "count": 10457,
+      "distinct": 126,
+      "top_values": [
+        {
+          "type": "point & shoot",
+          "count": 5254
+        },
+        {
+          "type": "digital slr",
+          "count": 2750
+        },
+        {
+          "type": "mirrorless interchangeable lens",
+          "count": 547
+        },
+        {
+          "type": "bridge camera",
+          "count": 332
+        },
+        {
+          "type": "point-and-shoot",
+          "count": 220
+        },
+        {
+          "type": "compact",
+          "count": 166
+        },
+        {
+          "type": "slr",
+          "count": 130
+        },
+        {
+          "type": "compact camera",
+          "count": 104
+        },
+        {
+          "type": "underwater",
+          "count": 104
+        },
+        {
+          "type": "point & shoot digital camera",
+          "count": 80
+        }
+      ]
+    }
+  }
+}
