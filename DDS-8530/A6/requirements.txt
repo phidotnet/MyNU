@@ -1,0 +1,9 @@
+pandas
+dask
+pyspark
+sqlalchemy
+pymongo
+kafka-python
+matplotlib
+seaborn
+jupyter

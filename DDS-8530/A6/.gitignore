@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.pytest_cache/
+
+# Generated pipeline output and streaming runtime state
+data/
+output/
+*.log
+alaska_dataset/
+datasets/
+
+mongodb/
